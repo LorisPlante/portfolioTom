@@ -1,0 +1,17 @@
+RewriteEngine On
+
+# directory browsing
+Options All -Indexes
+
+#RewriteCond %{REQUEST-FILENAME} !-f
+#RewriteCond %{REQUEST-FILENAME} !-d
+
+ErrorDocument 500 /erreurs/erreur500.php
+ErrorDocument 404 /erreurs/erreur404.php
+ErrorDocument 403 /erreurs/erreur403.php
+
+RewriteRule ^competences$ src/pages/competences.php [NC,L]
+RewriteRule ^biographie$ src/pages/biographie.php [NC,L]
+RewriteRule ^formations$ src/pages/formations.php [NC,L]
+RewriteRule ^a-propos$ src/pages/aPropos.php [NC,L]
+RewriteRule ^contact$ src/pages/contact.php [NC,L]
