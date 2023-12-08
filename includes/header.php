@@ -1,5 +1,5 @@
 <?php
-    define('RACINE','/portfolioTom/');
+    define('RACINE','/');
 
     function getPageClassDesktop($currentPage){
         $currentUri = $_SERVER['REQUEST_URI'];

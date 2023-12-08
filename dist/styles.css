@@ -626,6 +626,9 @@ video {
 .p-0 {
   padding: 0px;
 }
+.p-\[64px\] {
+  padding: 64px;
+}
 .p-section-mobile {
   padding: 50px 5vw;
 }
